@@ -1,8 +1,10 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 using NoypiWikiAdminDomain.Models.Common;
 
 namespace NoypiWikiAdminDomain.Models;
 
+[Index(nameof(CreatedOn), nameof(ModifiedOn), nameof(UserId))]
 public class UserEntity : BaseEntity
 {
     public Guid UserId { get; set; }
@@ -21,5 +23,6 @@ public class UserEntity : BaseEntity
         this.ModifiedOn = DateTimeOffset.Now;
         this.ModifiedBy = modifiedBy;
         this.ModifiedByType = modifiedByType;
+        this.IsActive = true;
     }
 }

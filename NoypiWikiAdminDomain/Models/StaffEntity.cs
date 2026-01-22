@@ -4,7 +4,7 @@ using NoypiWikiAdminDomain.Models.Common;
 
 namespace NoypiWikiAdminDomain.Models;
 
-[Index(nameof(CreatedOn), nameof(ModifiedOn))]
+[Index(nameof(CreatedOn), nameof(ModifiedOn), nameof(UserId))]
 public class StaffEntity : BaseEntity
 {
     public Guid UserId { get; set; }
@@ -20,12 +20,6 @@ public class StaffEntity : BaseEntity
     public string EmailAddress { get; set; } = string.Empty;
 
     public int StaffStatusId { get; set; }
-
-    [ForeignKey("UserId")]
-    public UserEntity UserEntity { get; set; }
-
-    [ForeignKey("StaffStatusId")]
-    public StaffStatusEntity StaffStatusEntity { get; set; }
 
     public StaffEntity() { }
 }

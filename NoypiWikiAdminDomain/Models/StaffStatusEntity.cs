@@ -1,4 +1,5 @@
 using System;
+using System.ComponentModel.DataAnnotations;
 using NoypiWikiAdminDomain.Models.Common;
 
 namespace NoypiWikiAdminDomain.Models;

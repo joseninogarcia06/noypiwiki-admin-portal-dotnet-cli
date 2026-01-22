@@ -1,7 +1,9 @@
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 using NoypiWikiAdminDomain.Models.Common;
 namespace NoypiWikiAdminDomain.Models;
 
+[Index(nameof(UserId), nameof(CreatedOn), nameof(ModifiedOn))]
 public class MemberEntity : BaseEntity
 {
     public Guid UserId { get; set; }

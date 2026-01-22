@@ -1,9 +1,11 @@
 using System;
 using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 using NoypiWikiAdminDomain.Models.Common;
 
 namespace NoypiWikiAdminDomain.Models;
 
+[Index(nameof(UserId), nameof(CreatedOn), nameof(ModifiedOn))]
 public class UserAuthenticationEntity : BaseEntity
 {
     public Guid UserId { get; set; }
@@ -11,9 +13,6 @@ public class UserAuthenticationEntity : BaseEntity
     public string Password { get; set; }
 
     public string Salt { get; set; }
-
-    [ForeignKey("UserId")]
-    public UserEntity UserEntity { get; set; }
 
     public UserAuthenticationEntity() { }
 }

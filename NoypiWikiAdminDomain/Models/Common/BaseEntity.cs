@@ -17,4 +17,6 @@ public class BaseEntity
     public string ModifiedBy { get; set; } = string.Empty;
 
     public string ModifiedByType { get; set; } = string.Empty;
+
+    public bool IsActive { get; set; }
 }

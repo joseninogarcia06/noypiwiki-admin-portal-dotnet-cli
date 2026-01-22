@@ -6,7 +6,11 @@ using NoypiWikiAdminInfrastructure.Repository;
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
-builder.Services.AddScoped<IUserRepository, UserRepository>();
+builder.Services.AddScoped<IUserEntityRepository, UserEntityRepository>();
+
+builder.Configuration
+    .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
+    .AddJsonFile("appsettings.Production.json", optional: true, reloadOnChange: true);
 
 builder.Services.AddDbContext<NoypiWikiDbContext>(options => 
     options.UseMySql(
