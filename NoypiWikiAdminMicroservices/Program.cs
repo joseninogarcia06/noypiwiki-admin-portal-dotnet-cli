@@ -1,9 +1,12 @@
 using Microsoft.EntityFrameworkCore;
+using NoypiWikiAdminDomain.Interface;
 using NoypiWikiAdminInfrastructure;
+using NoypiWikiAdminInfrastructure.Repository;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
+builder.Services.AddScoped<IUserRepository, UserRepository>();
 
 builder.Services.AddDbContext<NoypiWikiDbContext>(options => 
     options.UseMySql(

@@ -7,4 +7,6 @@ public class NoypiWikiDbContext : DbContext
     {}
 
     public DbSet<User> User { get; set; }
+
+    public DbSet<Staff> Staff { get; set; }
 }
