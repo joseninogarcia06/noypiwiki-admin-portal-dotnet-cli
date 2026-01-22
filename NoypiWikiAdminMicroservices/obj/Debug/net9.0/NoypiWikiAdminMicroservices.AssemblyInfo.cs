@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("NoypiWikiAdminMicroservices")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+102f5532b240447f1d4d32e44779420dbab10c9d")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+c3f13277949e5ab94edd32caf01dcec710d84e67")]
 [assembly: System.Reflection.AssemblyProductAttribute("NoypiWikiAdminMicroservices")]
 [assembly: System.Reflection.AssemblyTitleAttribute("NoypiWikiAdminMicroservices")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

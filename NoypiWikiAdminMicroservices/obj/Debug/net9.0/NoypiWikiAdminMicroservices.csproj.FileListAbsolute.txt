@@ -259,3 +259,9 @@ D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\obj\Debug\net9.
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\obj\Debug\net9.0\NoypiWikiAdminMicroservices.pdb
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\obj\Debug\net9.0\NoypiWikiAdminMicroservices.genruntimeconfig.cache
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\obj\Debug\net9.0\ref\NoypiWikiAdminMicroservices.dll
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\Microsoft.OpenApi.dll
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\obj\Debug\net9.0\NoypiWikiAdminMicroservices.MvcApplicationPartsAssemblyInfo.cs
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\appsettings.Staging.json

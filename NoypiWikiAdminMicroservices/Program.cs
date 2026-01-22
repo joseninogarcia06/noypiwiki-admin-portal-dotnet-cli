@@ -1,4 +1,5 @@
 using Microsoft.EntityFrameworkCore;
+using Microsoft.OpenApi;
 using NoypiWikiAdminDomain.Interface;
 using NoypiWikiAdminInfrastructure;
 using NoypiWikiAdminInfrastructure.Repository;
@@ -7,6 +8,12 @@ var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<IUserEntityRepository, UserEntityRepository>();
+
+builder.Services.AddEndpointsApiExplorer();
+builder.Services.AddSwaggerGen(c =>
+{
+    c.SwaggerDoc("v1", new OpenApiInfo { Title = "NoypiWiki Microservices", Version = "v1" });
+});
 
 builder.Configuration
     .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
@@ -25,6 +32,15 @@ using(var scope = app.Services.CreateScope())
 {
     var db = scope.ServiceProvider.GetRequiredService<NoypiWikiDbContext>();
     db.Database.Migrate();
+}
+
+if (app.Environment.IsStaging())
+{
+    app.UseSwagger();
+    app.UseSwaggerUI(c =>
+    {
+        c.SwaggerEndpoint("/swagger/v1/swagger.json", "My API V1");
+    });   
 }
 
 app.MapGet("/", () => "Not Allowed");
