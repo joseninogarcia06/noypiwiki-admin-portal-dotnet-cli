@@ -1,5 +1,6 @@
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using NoypiWikiAdminMicroservices.Model.Dto.Admin.StaffAuthentication;
 
 namespace NoypiWikiAdminMicroservices.Controllers.Admin
 {
@@ -10,9 +11,16 @@ namespace NoypiWikiAdminMicroservices.Controllers.Admin
         public StaffAuthenticationController() { }
 
         [HttpPost]
-        public async Task<IActionResult> LoginAsync()
+        public async Task<IActionResult> LoginAsync(StaffAuthenticationRequestDto req)
         {
-            return Ok("ok");
+            try
+            {
+                return Ok("ok");
+            }
+            catch(Exception ex)
+            {
+                return Ok("ok");
+            }
         }
     }
 }

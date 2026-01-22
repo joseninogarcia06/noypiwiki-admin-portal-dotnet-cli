@@ -265,3 +265,4 @@ D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\obj\Debug\net9.0\NoypiWikiAdminMicroservices.MvcApplicationPartsAssemblyInfo.cs
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\appsettings.Staging.json
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminMicroservices\bin\Debug\net9.0\Newtonsoft.Json.dll

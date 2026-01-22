@@ -11,11 +11,21 @@
   </ItemGroup>
 
   <ItemGroup>
+    <Folder Include="Constant\" />
     <Folder Include="Controllers\" />
     <Folder Include="Controllers\Admin\" />
     <Folder Include="Controllers\Member\" />
     <Folder Include="DataSeed\" />
+    <Folder Include="Interface\" />
+    <Folder Include="Interface\Admin\" />
+    <Folder Include="Interface\Member\" />
     <Folder Include="Model\Dto\" />
+    <Folder Include="Model\Dto\Admin\" />
+    <Folder Include="Model\Dto\Admin\StaffAuthentication\" />
+    <Folder Include="Model\Dto\Member\" />
+    <Folder Include="Services\" />
+    <Folder Include="Services\Admin\" />
+    <Folder Include="Services\Member\" />
   </ItemGroup>
 
   <ItemGroup>
@@ -24,6 +34,7 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.4" />
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="9.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="10.1.0" />
   </ItemGroup>
