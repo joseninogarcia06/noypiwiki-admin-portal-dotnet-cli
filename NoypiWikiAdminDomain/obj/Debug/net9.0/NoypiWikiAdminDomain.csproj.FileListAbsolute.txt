@@ -1,0 +1,12 @@
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\bin\Debug\net9.0\NoypiWikiAdminDomain.deps.json
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\bin\Debug\net9.0\NoypiWikiAdminDomain.dll
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\bin\Debug\net9.0\NoypiWikiAdminDomain.pdb
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.GeneratedMSBuildEditorConfig.editorconfig
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.AssemblyInfoInputs.cache
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.AssemblyInfo.cs
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.csproj.CoreCompileInputs.cache
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.sourcelink.json
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.dll
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\refint\NoypiWikiAdminDomain.dll
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.pdb
+D:\noypiwiki-admin-dotnet\NoypiWikiAdminDomain\obj\Debug\net9.0\ref\NoypiWikiAdminDomain.dll
