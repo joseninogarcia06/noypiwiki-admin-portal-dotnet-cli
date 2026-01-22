@@ -22,3 +22,4 @@ D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminDomain\obj\Debug\net9.0\Noypi
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminDomain\obj\Debug\net9.0\refint\NoypiWikiAdminDomain.dll
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.pdb
 D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminDomain\obj\Debug\net9.0\ref\NoypiWikiAdminDomain.dll
+D:\noypiwiki-admin-portal-dotnet-cli\NoypiWikiAdminDomain\obj\Debug\net9.0\NoypiWikiAdminDomain.csproj.AssemblyReference.cache

@@ -1,19 +1,18 @@
-using System;
 using NoypiWikiAdminDomain.Interface;
 using NoypiWikiAdminDomain.Models;
 
 namespace NoypiWikiAdminInfrastructure.Repository;
 
-public class UserRepository : IUserRepository
+public class UserEntityRepository : IUserEntityRepository
 {
     private readonly NoypiWikiDbContext _noypiWikiDbContext;
 
-    public UserRepository(NoypiWikiDbContext noypiWikiDbContext)
+    public UserEntityRepository(NoypiWikiDbContext noypiWikiDbContext)
     {
         _noypiWikiDbContext = noypiWikiDbContext;
     }
 
-    public Task Add(User user)
+    public Task Add(UserEntity user)
     {
         throw new NotImplementedException();
     }

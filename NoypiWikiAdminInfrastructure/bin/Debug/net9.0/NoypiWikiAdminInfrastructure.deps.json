@@ -608,6 +608,9 @@
       "System.Text.Json/9.0.0": {},
       "System.Threading.Channels/7.0.0": {},
       "NoypiWikiAdminDomain/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "9.0.12"
+        },
         "runtime": {
           "NoypiWikiAdminDomain.dll": {
             "assemblyVersion": "1.0.0.0",

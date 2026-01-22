@@ -1,15 +1,16 @@
+using System.ComponentModel.DataAnnotations.Schema;
 using NoypiWikiAdminDomain.Models.Common;
 
 namespace NoypiWikiAdminDomain.Models;
 
-public class User : BaseEntity
+public class UserEntity : BaseEntity
 {
     public Guid UserId { get; set; }
 
-    public User()
+    public UserEntity()
     {}
 
-    public User(Guid userId, string createdBy, string createdByType, string modifiedBy, 
+    public UserEntity(Guid userId, string createdBy, string createdByType, string modifiedBy, 
                 string modifiedByType)
     {
         this.ID = Guid.NewGuid();

@@ -1,7 +1,9 @@
+using System.ComponentModel.DataAnnotations;
 namespace NoypiWikiAdminDomain.Models.Common;
 
 public class BaseEntity
 {
+    [Key]
     public Guid ID { get; set; }
 
     public DateTimeOffset CreatedOn { get; set; }

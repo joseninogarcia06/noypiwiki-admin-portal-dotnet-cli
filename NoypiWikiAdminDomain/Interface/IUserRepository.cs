@@ -3,7 +3,7 @@ using NoypiWikiAdminDomain.Models;
 
 namespace NoypiWikiAdminDomain.Interface;
 
-public interface IUserRepository
+public interface IUserEntityRepository
 {
-    Task Add(User user);
+    Task Add(UserEntity user);
 }

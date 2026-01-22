@@ -1,8 +1,11 @@
+using System.ComponentModel.DataAnnotations.Schema;
+using Microsoft.EntityFrameworkCore;
 using NoypiWikiAdminDomain.Models.Common;
 
 namespace NoypiWikiAdminDomain.Models;
 
-public class Staff : BaseEntity
+[Index(nameof(CreatedOn), nameof(ModifiedOn))]
+public class StaffEntity : BaseEntity
 {
     public Guid UserId { get; set; }
 
@@ -16,7 +19,13 @@ public class Staff : BaseEntity
 
     public string EmailAddress { get; set; } = string.Empty;
 
-    public string EmploymentStatus { get; set; } = string.Empty;
+    public int StaffStatusId { get; set; }
 
-    public Staff() { }
+    [ForeignKey("UserId")]
+    public UserEntity UserEntity { get; set; }
+
+    [ForeignKey("StaffStatusId")]
+    public StaffStatusEntity StaffStatusEntity { get; set; }
+
+    public StaffEntity() { }
 }
