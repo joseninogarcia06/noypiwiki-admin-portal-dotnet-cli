@@ -3,11 +3,14 @@ using Microsoft.OpenApi;
 using NoypiWikiAdminDomain.Interface;
 using NoypiWikiAdminInfrastructure;
 using NoypiWikiAdminInfrastructure.Repository;
+using NoypiWikiAdminMicroservices.Interface.Admin;
+using NoypiWikiAdminMicroservices.Services.Admin;
 
 var builder = WebApplication.CreateBuilder(args);
 
 builder.Services.AddControllers();
 builder.Services.AddScoped<IUserEntityRepository, UserEntityRepository>();
+builder.Services.AddScoped<IUserAuthenticateService, UserAuthenticateService>();
 
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen(c =>

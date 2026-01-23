@@ -16,15 +16,13 @@
     <Folder Include="Controllers\Admin\" />
     <Folder Include="Controllers\Member\" />
     <Folder Include="DataSeed\" />
-    <Folder Include="Interface\" />
-    <Folder Include="Interface\Admin\" />
+    <Folder Include="Helper\" />
     <Folder Include="Interface\Member\" />
+    <Folder Include="Model\Common\" />
     <Folder Include="Model\Dto\" />
     <Folder Include="Model\Dto\Admin\" />
     <Folder Include="Model\Dto\Admin\StaffAuthentication\" />
     <Folder Include="Model\Dto\Member\" />
-    <Folder Include="Services\" />
-    <Folder Include="Services\Admin\" />
     <Folder Include="Services\Member\" />
   </ItemGroup>
 
